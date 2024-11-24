@@ -29,6 +29,7 @@
       background-color: white;
       border-radius: 10px;
       box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+      animation: fadeInDown 1s ease;
     }
 
     .nav-logo {
@@ -49,6 +50,7 @@
       max-width: 600px;
       margin: 40px auto;
       text-align: center;
+      animation: fadeIn 1.5s ease;
     }
 
     .title {
@@ -63,11 +65,13 @@
 
     .highlight-yellow {
       background-color: #fffd88;
+      animation: pulse 2s infinite;
     }
 
     .highlight-red {
       text-decoration: underline;
       color: #ff4b4b;
+      animation: textGlow 2s infinite alternate;
     }
 
     .description {
@@ -94,6 +98,7 @@
       color: white;
       text-align: center;
       transition: all 0.3s ease;
+      animation: slideUp 1s ease;
     }
 
     .button-about {
@@ -107,13 +112,66 @@
     }
 
     .button:hover {
-      transform: scale(1.05);
+      transform: scale(1.1) rotate(2deg);
+    }
+
+    /* Keyframes for Animations */
+    @keyframes fadeIn {
+      from {
+        opacity: 0;
+        transform: translateY(20px);
+      }
+      to {
+        opacity: 1;
+        transform: translateY(0);
+      }
+    }
+
+    @keyframes fadeInDown {
+      from {
+        opacity: 0;
+        transform: translateY(-20px);
+      }
+      to {
+        opacity: 1;
+        transform: translateY(0);
+      }
+    }
+
+    @keyframes slideUp {
+      from {
+        transform: translateY(30px);
+        opacity: 0;
+      }
+      to {
+        transform: translateY(0);
+        opacity: 1;
+      }
+    }
+
+    @keyframes pulse {
+      0%, 100% {
+        background-color: #fffd88;
+      }
+      50% {
+        background-color: #ffe769;
+      }
+    }
+
+    @keyframes textGlow {
+      from {
+        text-shadow: 0 0 5px #ff4b4b, 0 0 10px #ff4b4b, 0 0 15px #ff4b4b;
+      }
+      to {
+        text-shadow: 0 0 10px #ff6f6f, 0 0 20px #ff6f6f, 0 0 30px #ff6f6f;
+      }
     }
 
     /* Dark Mode */
     body.dark-mode {
       background-color: #222;
       color: #f7f7f7;
+      animation: fadeIn 1s ease;
     }
 
     body.dark-mode .navbar {
