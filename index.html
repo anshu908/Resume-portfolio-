@@ -1,0 +1,159 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Anshu</title>
+  <style>
+    /* General Reset */
+    * {
+      margin: 0;
+      padding: 0;
+      box-sizing: border-box;
+    }
+
+    body {
+      font-family: 'Arial', sans-serif;
+      line-height: 1.6;
+      background-color: #f7f7f7;
+      color: #333;
+      padding: 20px;
+    }
+
+    /* Navbar */
+    .navbar {
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      padding: 10px 20px;
+      background-color: white;
+      border-radius: 10px;
+      box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+    }
+
+    .nav-logo {
+      font-size: 18px;
+      font-weight: bold;
+    }
+
+    .nav-actions button {
+      background: none;
+      border: none;
+      font-size: 20px;
+      cursor: pointer;
+      margin-left: 10px;
+    }
+
+    /* Main Content */
+    .container {
+      max-width: 600px;
+      margin: 40px auto;
+      text-align: center;
+    }
+
+    .title {
+      font-size: 2.5rem;
+      font-weight: bold;
+      margin-bottom: 20px;
+    }
+
+    .highlight-blue {
+      color: #007bff;
+    }
+
+    .highlight-yellow {
+      background-color: #fffd88;
+    }
+
+    .highlight-red {
+      text-decoration: underline;
+      color: #ff4b4b;
+    }
+
+    .description {
+      font-size: 1.1rem;
+      margin-bottom: 30px;
+      color: #555;
+    }
+
+    /* Buttons */
+    .buttons {
+      display: flex;
+      flex-direction: column;
+      gap: 20px;
+      align-items: center;
+    }
+
+    .button {
+      display: inline-block;
+      padding: 15px 25px;
+      font-size: 1rem;
+      font-weight: bold;
+      text-decoration: none;
+      border-radius: 12px;
+      color: white;
+      text-align: center;
+      transition: all 0.3s ease;
+    }
+
+    .button-about {
+      background: linear-gradient(90deg, #7b2ff7, #f107a3);
+      box-shadow: 0 4px 15px rgba(123, 47, 247, 0.4);
+    }
+
+    .button-cv {
+      background: linear-gradient(90deg, #2ff7e7, #07f7a3);
+      box-shadow: 0 4px 15px rgba(47, 247, 227, 0.4);
+    }
+
+    .button:hover {
+      transform: scale(1.05);
+    }
+
+    /* Dark Mode */
+    body.dark-mode {
+      background-color: #222;
+      color: #f7f7f7;
+    }
+
+    body.dark-mode .navbar {
+      background-color: #333;
+      color: #f7f7f7;
+    }
+  </style>
+</head>
+<body>
+  <nav class="navbar">
+    <div class="nav-logo">🤖 ~/</div>
+    <div class="nav-actions">
+      <button class="dark-mode-toggle">🌙</button>
+      <button class="menu-toggle">☰</button>
+    </div>
+  </nav>
+  <main class="container">
+    <h1 class="title">Hey!, I am <span class="highlight-blue">Ansh</span> 👋</h1>
+    <p class="description">
+      Welcome to my online space for thoughts and musings. I’m a curious software engineer, constantly striving to improve a little each day. 
+      This is where I share my <span class="highlight-yellow">thoughts</span>, <span class="highlight-blue">reflections</span>, and 
+      <span class="highlight-red">everything</span> in between.
+    </p>
+    <div class="buttons">
+      <a href="#" class="button button-about">
+        <span>ℹ️ About Me →</span>
+      </a>
+      <a href="#" class="button button-cv">
+        <span>📄 Read CV! →</span>
+      </a>
+    </div>
+  </main>
+  <script>
+    document.querySelector('.dark-mode-toggle').addEventListener('click', () => {
+      document.body.classList.toggle('dark-mode');
+    });
+
+    document.querySelector('.menu-toggle').addEventListener('click', () => {
+      alert('Menu clicked!');
+    });
+  </script>
+</body>
+</html>
