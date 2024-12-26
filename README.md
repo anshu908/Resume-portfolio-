@@ -50,7 +50,7 @@ Resume-Portfolio/
 ## 🌐 Contact
 
 - 📧 **Email:** anshppt19@gmail.com
-- 🖇️ **GitHub:** [Resume-Portfolio](https://github.com/anshu908/resume-portfolio)
+- 🖇️ **GitHub:** [Resume-Portfolio](https://storied-crepe-777e78.netlify.app/)
 
 ---
 
