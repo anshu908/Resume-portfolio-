@@ -6,10 +6,9 @@
 
 ## ✨ Key Features
 
-- 🌟 **Professional Resume:** Highlighting career milestones, skills, and accomplishments.
-- 🌐 **Diverse Portfolio:** A showcase of projects across various technologies and domains.
-- 📂 **Organized Structure:** Easy navigation through well-documented sections.
-
+🌟 𝐏𝐫𝐨𝐟𝐞𝐬𝐬𝐢𝐨𝐧𝐚𝐥 𝐑𝐞𝐬𝐮𝐦𝐞: 𝐇𝐢𝐠𝐡𝐥𝐢𝐠𝐡𝐭𝐢𝐧𝐠 𝐜𝐚𝐫𝐞𝐞𝐫 𝐦𝐢𝐥𝐞𝐬𝐭𝐨𝐧𝐞𝐬, 𝐬𝐤𝐢𝐥𝐥𝐬, 𝐚𝐧𝐝 𝐚𝐜𝐜𝐨𝐦𝐩𝐥𝐢𝐬𝐡𝐦𝐞𝐧𝐭𝐬. 
+🌐 𝐃𝐢𝐯𝐞𝐫𝐬𝐞 𝐏𝐨𝐫𝐭𝐟𝐨𝐥𝐢𝐨: 𝐀 𝐬𝐡𝐨𝐰𝐜𝐚𝐬𝐞 𝐨𝐟 𝐩𝐫𝐨𝐣𝐞𝐜𝐭𝐬 𝐚𝐜𝐫𝐨𝐬𝐬 𝐯𝐚𝐫𝐢𝐨𝐮𝐬 𝐭𝐞𝐜𝐡𝐧𝐨𝐥𝐨𝐠𝐢𝐞𝐬 𝐚𝐧𝐝 𝐝𝐨𝐦𝐚𝐢𝐧𝐬. 
+📂 𝐎𝐫𝐠𝐚𝐧𝐢𝐳𝐞𝐝 𝐒𝐭𝐫𝐮𝐜𝐭𝐮𝐫𝐞: 𝐄𝐚𝐬𝐲 𝐧𝐚𝐯𝐢𝐠𝐚𝐭𝐢𝐨𝐧 𝐭𝐡𝐫𝐨𝐮𝐠𝐡 𝐰𝐞𝐥𝐥-𝐝𝐨𝐜𝐮𝐦𝐞𝐧𝐭𝐞𝐝 𝐬𝐞𝐜𝐭𝐢𝐨𝐧𝐬.
 ---
 
 ## 📂 Repository Layout
